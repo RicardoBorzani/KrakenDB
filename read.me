@@ -1,0 +1,18 @@
+Task #40: KrakenDB-patch-3B Implement data partitioning and distributed transactions
+
+1: Research and choose a suitable partitioning strategy based on the database schema and expected usage patterns.
+You will need to research various partitioning strategies and choose the one that best fits the needs of the project. This may involve looking at factors such as the size of the database, the number of users accessing the database, and the desired level of data redundancy. You should also consider the structure of the database schema and how data is accessed and queried in the application.
+
+2: Implement partitioning logic to split data across multiple physical nodes in the cluster.
+Once you have chosen a partitioning strategy, you will need to modify the codebase to implement the partitioning logic. This will involve splitting the data into logical partitions and distributing them across multiple physical nodes in the cluster. You will also need to ensure that the partitioning is transparent to the application and does not impact the functionality of the CRUD operations.
+
+3: Modify the CRUD and transaction logic to handle distributed transactions across multiple nodes.
+You will need to modify the CRUD and transaction logic to handle distributed transactions across multiple nodes in the cluster. This will involve implementing mechanisms for distributed locking and transaction coordination, as well as ensuring that the transactional guarantees are maintained even in the presence of failures.
+
+4: Write integration tests to verify correct partitioning and distributed transaction behavior.
+To ensure that the partitioning and distributed transaction logic is working as intended, you will need to write integration tests that cover the various use cases and scenarios that may occur. These tests should be comprehensive and cover both normal and edge cases.
+
+5: Add monitoring and logging to detect and diagnose issues with distributed transactions.
+To detect and diagnose issues with distributed transactions, you will need to add monitoring and logging capabilities to the application. This may involve adding metrics and logs that track the performance of distributed transactions, as well as implementing mechanisms for detecting and handling failures.
+
+Once you have completed all of these tasks, you can submit your changes for review and merge into the main codebase. Good luck with your Pull Request!
