@@ -1,0 +1,18 @@
+Task #41: KrakenDB-patch-3C Write integration tests for sharding and replication
+
+1: Set up a testing environment with multiple database nodes and sharding configuration.
+You will need to set up a testing environment that simulates a sharded and replicated database. This may involve deploying multiple database nodes and configuring them to use a sharding strategy. You will also need to ensure that the environment is properly isolated and can be easily reproducible.
+
+2: Write test cases to verify correct data partitioning and replication behavior.
+You will need to write test cases that verify the correctness of the data partitioning and replication behavior. These tests should cover various scenarios such as inserting and retrieving data across multiple shards, verifying data consistency across replicas, and verifying the correctness of the replication strategy.
+
+3: Write test cases to simulate node failure and verify correct failover behavior.
+To ensure that the database can handle node failures and maintain availability, you will need to write test cases that simulate node failure and verify the correctness of the failover behavior. These tests should cover various scenarios such as failing over to replicas, promoting a replica to a primary node, and verifying the correctness of the replication strategy.
+
+4: Write test cases to verify correct replication of schema changes and DDL statements.
+You will need to write test cases that verify the correctness of schema changes and DDL statements in a sharded and replicated environment. These tests should cover various scenarios such as creating, altering and dropping tables, and verifying that the changes are properly propagated to all nodes.
+
+5: Write test cases to verify correct handling of conflicts and consistency in a sharded and replicated environment.
+To ensure that the database can handle conflicts and maintain consistency in a sharded and replicated environment, you will need to write test cases that cover various conflict scenarios such as concurrent updates to the same data, conflicts between data on different shards, and verifying that the conflict resolution strategy is correct.
+
+Once you have completed all of these tasks, you can submit your changes for review and merge into the main codebase. Good luck with your Pull Request!
